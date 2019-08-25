@@ -25,4 +25,5 @@ Go to your local server and click phpmyadmin on the top right corner.
 Ex: localhost:8080
 Create a new database by clicking New on the left side of the screen.
 
-Some of the files are incomplete so you can add on to it.
+You can use any program you prefer to run and edit the code. I used Visual Studio Code for this project.
+Some of the files are incomplete so you can add on to it. Make sure you understand the code before you start editing. Have fun coding.
