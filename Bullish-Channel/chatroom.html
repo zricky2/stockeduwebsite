@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/chatroom.css" type="text/css">
+        <meta name="description" content="Learn How To Start and Grow as a Trader">
+        <meta name="keywords" content="stocks, day, swing, trade, learn, candles">
+        <meta name="author" content="Zheng">
+        <meta http-equiv="refresh" content="600">
+        <!--Putting the script in the header load when an action is perfromed -->
+        <script type= "text/javascript" language = "JavaScript" src="js/chatroom.js" ></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+    </head>
+
+    <header>
+        <div id="top-header"> 
+            <div id="logo"> 
+                <h1>The Bullish Channel</h1> 
+            </div>   
+
+            <nav> 
+                <ul> 
+                    <li><a href="index.html">Main Page</a></li> 
+                    <li><a href="education.html">Education</a></li> 
+                    <li><a href="trading-terms.html">Trading Terms</a></li> 
+                    <li><a href="chatroom.html">Chatroom</a></li> 
+                    <li><a href="about-us.html">About Us</a></li> 
+                    <li><a href="account.html">Account</a></li>
+                </ul> 
+            </nav> 
+        </div>   
+        
+    
+    </header>
+
+    <body>
+        <h1>Trading Community</h1>
+        <h2 style: bold> Success comes with hard work!</h2>
+        <h2> I love coding.</h2>
+        <div class = 'chatContainer'>
+
+            <div class= 'chatHeader' >
+                <h3> Welcome to the community</h3>
+            </div>
+
+            <div class='chatMessages' id="chatbox">
+
+            </div>
+
+            <div class='chatbottom'>
+                
+                <form onsubmit= "postMessage(); return false;" id='chatForm'>
+
+                    <input type='hidden' id='username' value='' placeholder= 'user'/>
+                    <input type='text' name='msg' id='message' value="" placeholder= "Type your message" required/>
+                    <input type='submit' name='submit' value='Post' />
+                    
+                </form>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
